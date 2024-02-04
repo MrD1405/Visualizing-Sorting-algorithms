@@ -1,0 +1,60 @@
+#container{
+    
+    margin:10px;
+    top: 50px;
+    right:50px;
+    left:50px;
+    bottom:10px;
+    background-color: aliceblue;
+    width:90%;
+    height:85%;
+    position:absolute;
+    display: block;
+
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+ 
+}
+#a{
+    position:relative;
+    padding-top: 0.5%;
+    top:7px;
+}
+#array_container{
+    position: relative;
+    left:100px;
+    right:100px;
+    margin-top: 50px;
+    width:1000px;
+    height:500px;
+}
+#arrays{
+    position:relative;
+   
+}
+#speed{
+    position:absolute;
+    left:700px;
+    height:30px;
+    width:65px;
+    top:20px;
+}
+#sorting_algo{
+    position:absolute;
+    left:1000px;
+    right:100px;
+    top:20px;
+    width:100px;
+    height:30px;
+}
+#labels{
+    position:relative;
+}
+#submit{
+   position: relative;
+   
+    width:70px;
+    height:28px;
+}
