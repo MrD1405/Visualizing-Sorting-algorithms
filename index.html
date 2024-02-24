@@ -1,0 +1,51 @@
+<html>
+    <head>
+       
+           
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>
+            Sortistics
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        
+            
+            
+    </head>
+    <body>
+       
+        <div id="container">
+            <label for="a">Enter the values:</label>
+            
+                
+            <form >
+                <input type="text" id="a">
+                <button  id="submit" type="button"  onclick="generate_array()" >Submit</button>
+            </form>
+            
+            <div id="array_container">
+               
+            </div>
+            <select name="speed" id="speed">
+                <option value="1">1x</option>
+               
+                <option value="2">2x</option>
+                <option value="5">5x</option>
+                <option value="10">10x</option>
+            </select> 
+            
+            
+            <select name="sorting_algo" id="sorting_algo">
+                <option value="selection">Selection</option>
+               
+                <option value="Bubble">Bubble</option>
+            </select>
+        </div>
+       
+        
+        
+        <script src="script.js"></script>
+        
+    </body>
+   
+</html>
